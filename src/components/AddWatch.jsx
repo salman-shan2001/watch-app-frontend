@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Navbar from './Navbar'
 
 const AddWatch = () => {
 
@@ -39,6 +40,7 @@ const AddWatch = () => {
     return (
         <div>
             <div>
+                <Navbar/>
                 <div className="container">
                     <div className="row">
                         <center>
